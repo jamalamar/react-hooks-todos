@@ -10,6 +10,8 @@ const TodoForm = ({ saveTodo }) => {
         event.preventDefault();
 
         saveTodo(value);
+
+        setValue('');
       }}
     >
       <TextField
